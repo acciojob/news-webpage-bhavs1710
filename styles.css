@@ -1,1 +1,42 @@
 /*  your css code here. If applicable */
+#news{
+	background-color:#011e29;
+    color:white;
+    padding:10px;
+    text-align: center;
+
+}
+#right{
+	background-color:#f5f5f5;
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    float: left;
+    width: 28%;
+    height:500px;
+
+}
+
+#left{
+	background-color:#f5f5f5;
+    position:relative;
+    display: flex;
+    float: left;
+    width: 35%;
+    flex-direction: column;
+    justify-content: top;
+    height: 500px;
+}
+
+#middle{
+	background-color:#f5f5f5;
+    position:relative;
+    display: flex;
+    width: 35%;
+    height: 500px;
+    float: left;
+    flex-direction: column;
+    justify-content: top;
+    text-align: center;
+}
